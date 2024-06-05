@@ -2,6 +2,21 @@ h1 {
   color: #ff8700;
 }
 
+.animate,
+.animate2 {
+  animation: fadeIn 3s ease-out 0s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-900px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 section {
   padding: 10px;
 }
@@ -19,11 +34,32 @@ section {
 
 .pct,
 .pct2 {
-  width: 25%;
+  width: 50%;
+}
+
+.animate,
+.animate2 {
+  animation: fadeIn 3s ease-out 0s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-900px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 h1 {
   color: #ff8700;
+}
+
+.pct {
+  border-radius: 30px;
+  box-shadow: 11px 11px 5px 1px #ff8700;
+  border: 2px solid #ff8700;
 }
 
 .btn-1 {
@@ -56,6 +92,14 @@ h1 {
   cursor: pointer;
 }
 
+#transform:hover {
+  border-radius: 30px;
+  box-shadow: 6px 6px 5px 1px #ff8700;
+  border: 1px solid #ff8700;
+  z-index: 1;
+  transform: scale(1.2);
+}
+
 h1 {
   color: #ff8700;
 }
@@ -68,6 +112,12 @@ body {
 h1 {
   font-size: 65px;
   font-weight: 700;
+}
+
+.pct {
+  border-radius: 30px;
+  box-shadow: 11px 11px 5px 1px #ff8700;
+  border: 2px solid #ff8700;
 }
 
 .nav-flex {
