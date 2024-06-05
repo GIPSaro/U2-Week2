@@ -1,0 +1,20 @@
+@import "./colori";
+
+@mixin buttom-style($background-color, $text-color) {
+  background-color: $background-color;
+  color: $text-color;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn-1 {
+  @include buttom-style($green, $text);
+}
+.btn-2 {
+  @include buttom-style($orange, $text);
+}
+.btn-3 {
+  @include buttom-style($blue, $text);
+}

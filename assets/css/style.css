@@ -26,6 +26,40 @@ h1 {
   color: #ff8700;
 }
 
+.btn-1 {
+  background-color: #4caf50;
+  color: #f4f4f4;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-2 {
+  background-color: #ff8700;
+  color: #f4f4f4;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-3 {
+  background-color: #0e6cff;
+  color: #f4f4f4;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+h1 {
+  color: #ff8700;
+}
+
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 16px;
@@ -34,4 +68,32 @@ body {
 h1 {
   font-size: 65px;
   font-weight: 700;
+}
+
+.nav-flex {
+  padding: 1em;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.nav-flex img {
+  width: 10em;
+  height: 10em;
+}
+
+.ul-flex {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.ul-flex li {
+  padding: 1em;
+  margin: 0;
+  display: block;
+}
+.ul-flex a {
+  text-decoration: none;
+  color: #640fc5;
 }/*# sourceMappingURL=style.css.map */
