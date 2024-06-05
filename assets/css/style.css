@@ -37,6 +37,10 @@ section {
   width: 50%;
 }
 
+.pct2 {
+  border-radius: 20px;
+}
+
 .animate,
 .animate2 {
   animation: fadeIn 3s ease-out 0s;
@@ -58,8 +62,8 @@ h1 {
 
 .pct {
   border-radius: 30px;
-  box-shadow: 11px 11px 5px 1px #ff8700;
-  border: 2px solid #ff8700;
+  box-shadow: 11px 11px 10px 1px #0e6cff;
+  /*   border: $z solid $orange; */
 }
 
 .btn-1 {
@@ -94,8 +98,8 @@ h1 {
 
 #transform:hover {
   border-radius: 30px;
-  box-shadow: 6px 6px 5px 1px #ff8700;
-  border: 1px solid #ff8700;
+  box-shadow: 6px 6px 10px 1px #0e6cff;
+  /*   border: $z solid $orange; */
   z-index: 1;
   transform: scale(1.2);
 }
@@ -116,8 +120,8 @@ h1 {
 
 .pct {
   border-radius: 30px;
-  box-shadow: 11px 11px 5px 1px #ff8700;
-  border: 2px solid #ff8700;
+  box-shadow: 11px 11px 10px 1px #0e6cff;
+  /*   border: $z solid $orange; */
 }
 
 .nav-flex {
