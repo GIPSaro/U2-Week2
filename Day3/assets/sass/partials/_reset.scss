@@ -1,1 +1,18 @@
+@import "./colori";
+section {
+  padding: 10px;
+}
 
+#headline {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+}
+.nav-flex {
+  background-color: $text;
+  cursor: pointer;
+}
+.pct,
+.pct2 {
+  width: 25%;
+}
