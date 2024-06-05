@@ -2,14 +2,27 @@ h1 {
   color: #ff8700;
 }
 
-.animate,
-.animate2 {
+.animate {
   animation: fadeIn 3s ease-out 0s;
 }
 @keyframes fadeIn {
   0% {
     opacity: 0;
     transform: translateY(-900px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate2 {
+  animation: fadeIn 5s ease-out 0s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-1500px);
   }
   100% {
     opacity: 1;
@@ -34,21 +47,38 @@ section {
 
 .pct,
 .pct2 {
-  width: 50%;
+  width: 24%;
 }
 
 .pct2 {
   border-radius: 20px;
 }
 
-.animate,
-.animate2 {
+.hero {
+  display: inline-flex;
+}
+
+.animate {
   animation: fadeIn 3s ease-out 0s;
 }
 @keyframes fadeIn {
   0% {
     opacity: 0;
     transform: translateY(-900px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate2 {
+  animation: fadeIn 5s ease-out 0s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-1500px);
   }
   100% {
     opacity: 1;

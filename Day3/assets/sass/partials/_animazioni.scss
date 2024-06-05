@@ -12,7 +12,9 @@
     }
   }
 }
-.animate,
-.animate2 {
+.animate {
   @include move(3s, -900px, 0, 0s);
+}
+.animate2 {
+  @include move(5s, -1500px, 0, 0s);
 }
